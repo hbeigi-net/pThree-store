@@ -1,0 +1,91 @@
+.header-icon{
+    color: #333;
+    font-size: 2rem;
+}
+.bg-custom-1{
+    background-color: rgb(255, 238, 244);
+}
+.header-icon:hover{
+    color: rgb(255, 60, 60);
+}
+.red-hover-shadow:hover{
+    box-shadow: 1px 1px 10px 2px red;
+}
+.text-hover-red:hover{
+    color: red !important;
+}
+
+body{
+    background-color: #ece9e9;
+  
+}
+
+#top_icons{
+    position: fixed !important;
+    bottom: -20px !important;
+    z-index: 10000;
+    right: 0;
+    left: 0;
+    background-color: rgb(255, 238, 244);
+}
+#top_logo{
+    max-width: 150px;
+    max-height: 80px;
+}
+/* carousel styles  start  */
+.text-indent-0{
+    text-indent: 0 !important;
+}
+.w-20{
+    width: 20% !important;
+}
+#main_page_carousel footer ol{
+    height: 40px;
+}
+#main_page_carousel footer li.active{
+    background-color: azure !important;
+    color: black !important;
+    transition-duration: .5s;
+}
+footer li.active::before{
+    content: "";
+    border: 15px  solid transparent;
+    border-bottom-color: azure;
+    position: absolute;
+    right: 15px;
+    top: -30px;
+    margin-right: -15px;
+}
+/* carousel styles end  */
+.owl-nav{
+    font-size: 4rem;
+    font-weight: bold;
+    color: grey !important;
+}
+.owl-prev{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+.owl-next{
+    position: absolute;
+    left: 0px !important;
+    top:40%;
+}
+.owl-nav button:hover{
+    background-color: transparent !important;
+    color: black !important;
+    
+}
+
+.bg-darker{
+    background-color: black;
+}
+.footer-link{
+    color:rgb(179, 174, 176);
+}
+.footer-link:hover{
+    color:white !important;
+}
+
+
